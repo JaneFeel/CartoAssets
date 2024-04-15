@@ -77,7 +77,7 @@
   box-sizing: border-box;
 
   &:hover {
-    border: 1px solid $cBlueHover;
+    border: 1px solid var(--blue--400);
   }
   &:focus {
     border: 1px solid $cBlackHover;

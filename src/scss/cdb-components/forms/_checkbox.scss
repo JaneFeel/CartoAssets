@@ -67,8 +67,8 @@
 
 .CDB-Checkbox:checked + .CDB-Checkbox-face {
   transition: background 300ms;
-  border: 1px solid $cBlue;
-  background: $cBlue;
+  border: 1px solid var(--blue--500);
+  background: var(--blue--500);
 
   &::before,
   &::after {
@@ -77,7 +77,7 @@
 }
 
 .CDB-Checkbox:checked:hover + .CDB-Checkbox-face {
-  border: 1px solid $cBlue;
+  border: 1px solid var(--blue--500);
 
   &::before,
   &::after {
@@ -86,7 +86,7 @@
 }
 
 .CDB-Checkbox:hover + .CDB-Checkbox-face {
-  border: 1px solid $cBlueHover;
+  border: 1px solid var(--blue--400);
 
   &::before,
   &::after {
@@ -94,11 +94,11 @@
   }
 }
 .CDB-Checkbox:active + .CDB-Checkbox-face {
-  border: 1px solid $cBlue;
+  border: 1px solid var(--blue--500);
 
   &::before,
   &::after {
-    background: $cBlue;
+    background: var(--blue--500);
   }
 }
 

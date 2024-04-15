@@ -140,7 +140,7 @@ Description
 .CDB-Shape-rectsHandleItem--blue {
   &::before,
   &::after {
-    background: $cBlue;
+    background: var(--blue--500);
   }
 }
 

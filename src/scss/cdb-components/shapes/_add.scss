@@ -114,7 +114,7 @@ Description
 .CDB-Shape-add.is-blue {
   &::before,
   &::after {
-    background: $cBlue;
+    background: var(--blue--500);
   }
 }
 

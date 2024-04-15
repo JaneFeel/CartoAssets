@@ -143,7 +143,7 @@ Description
 }
 
 .CDB-Shape-threePoints.is-blue .CDB-Shape-threePointsItem {
-  background: $cBlue;
+  background: var(--blue--500);
 }
 
 .CDB-Shape-threePoints.is-white .CDB-Shape-threePointsItem {

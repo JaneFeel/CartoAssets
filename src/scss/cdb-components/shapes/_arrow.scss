@@ -59,14 +59,14 @@ Description
 }
 
 .CDB-Shape-Arrow.is-blue {
-  background: $cBlue;
+  background: var(--blue--500);
 
   &::before {
-    background: $cBlue;
+    background: var(--blue--500);
   }
 
   &::after {
-    background: $cBlue;
+    background: var(--blue--500);
   }
 }
 

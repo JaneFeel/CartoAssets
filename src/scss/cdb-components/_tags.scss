@@ -25,9 +25,9 @@
 
 .CDB-Tag {
   padding: 0 3px;
-  border: 1px solid $cBlue;
+  border: 1px solid var(--blue--500);
   border-radius: 2px;
-  color: $cBlue;
+  color: var(--blue--500);
 
   &.is-public {
     border: 1px solid $cPublic;
@@ -38,8 +38,8 @@
     color: $cLink;
   }
   &.is-password {
-    border: 1px solid $cPassword;
-    color: $cPassword;
+    border: 1px solid var(--yellow--800);
+    color: var(--yellow--800);
   }
   &.is-private {
     border: 1px solid $cError;
@@ -97,7 +97,7 @@
   @include display-flex();
   padding: $halfBaseSize $halfBaseSize $halfBaseSize $baseSize;
   border-radius: $halfBaseSize;
-  background: rgba($cBlue, 0.16);
+  background: var(--blue--500-transparent-16);
 }
 
 /* SG

@@ -246,25 +246,25 @@ Layout Component:
 }
 
 .CDB-Button--primary {
-  background: $cBlue;
+  background: var(--blue--500);
   color: $cWhite;
 
   &:hover,
   &:active {
-    background: $cBlueHover;
+    background: var(--blue--400);
   }
 
   &.is-loading {
     &:hover,
     &:active {
-      background: $cBlue;
+      background: var(--blue--500);
     }
   }
 
   &.is-disabled {
     &:hover,
     &:active {
-      background: $cBlue;
+      background: var(--blue--500);
     }
   }
 }
@@ -308,10 +308,10 @@ Layout Component:
 .CDB-Button--dashed {
   padding: 13px 0;
   border: 1px dashed $cHintText;
-  color: $cBlue;
+  color: var(--blue--500);
 
   &:hover {
-    border-color: $cBlue;
+    border-color: var(--blue--500);
   }
 
   &.is-disabled {
@@ -427,23 +427,23 @@ Layout Component:
 
 
 .CDB-Button--secondary {
-  color: $cBlue;
-  box-shadow: inset 0 0 0 1px $cBlue;
+  color: var(--blue--500);
+  box-shadow: inset 0 0 0 1px var(--blue--500);
 
   &:hover {
-    background: rgba($cBlue, 0.08);
-    box-shadow: inset 0 0 0 2px $cBlueHover;
+    background: var(--blue--500-transparent-8);
+    box-shadow: inset 0 0 0 2px var(--blue--400);
   }
 
   &:active {
-    background: $cBlue;
+    background: var(--blue--500);
     color: $cWhite;
   }
 
   &.is-disabled {
     &:hover {
       background: transparent;
-      box-shadow: inset 0 0 0 1px $cBlue;
+      box-shadow: inset 0 0 0 1px var(--blue--500);
     }
 
     &:active {
@@ -457,7 +457,7 @@ Layout Component:
     &:hover,
     &:active {
       background: none;
-      color: $cBlue;
+      color: var(--blue--500);
     }
   }
 

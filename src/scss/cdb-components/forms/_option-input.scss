@@ -146,7 +146,7 @@
   border: 1px solid $cMainLine;
 
   &:hover {
-    border: 1px solid $cBlueHover;
+    border: 1px solid var(--blue--400);
   }
 
   &.is-active,
@@ -187,7 +187,7 @@
     }
 
     &:hover::after {
-      background-color: $cBlueHover;
+      background-color: var(--blue--400);
     }
 
     &.is-active::after,

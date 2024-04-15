@@ -158,11 +158,11 @@
   transition: border-color 0.2s ease-in;
   border-bottom: 2px solid transparent;
   border-radius: 0;
-  color: $cBlue;
+  color: var(--blue--500);
   touch-action: manipulation;
 
   &:hover {
-    border-bottom: 2px solid $cBlueHover;
+    border-bottom: 2px solid var(--blue--400);
   }
 }
 
@@ -207,11 +207,11 @@
   transition: border-color 0.2s ease-in;
   border-bottom: 2px solid transparent;
   border-radius: 0;
-  color: $cBlue;
+  color: var(--blue--500);
   touch-action: manipulation;
 
   &:hover {
-    border-bottom: 2px solid $cBlueHover;
+    border-bottom: 2px solid var(--blue--400);
   }
 }
 

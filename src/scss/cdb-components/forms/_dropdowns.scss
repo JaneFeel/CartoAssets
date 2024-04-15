@@ -151,14 +151,14 @@
   @include text-overflow();
   padding: 12px 10px;
   border-bottom: 1px solid $cMainLine;
-  color: $cBlue;
+  color: var(--blue--500);
 
   &:last-child {
     border-bottom: 0;
   }
 
   &:hover {
-    background-color: rgba($cBlue, 0.08);
+    background-color: var(--blue--500-transparent-8);
     color: $cMainBg;
     cursor: pointer;
   }

@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: $cBlue;
+  color: var(--blue--500);
   text-decoration: none;
 }
 

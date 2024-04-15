@@ -67,7 +67,7 @@ Description
     margin: 0 auto;
   }
   &.is-blue {
-    border: 1px solid $cBlue;
+    border: 1px solid var(--blue--500);
   }
   &.is-white {
     border: 1px solid $cWhite;
@@ -83,8 +83,8 @@ Description
 
 .CDB-Shape-CircleItem--fill {
   &.is-blue {
-    border: 1px solid $cBlue;
-    background: $cBlue;
+    border: 1px solid var(--blue--500);
+    background: var(--blue--500);
   }
   &.is-white {
     border: 1px solid $cWhite;

@@ -93,7 +93,7 @@ Description
 }
 
 .CDB-Shape-paragraph.is-active .CDB-Shape-paragraphBar {
-  background: $cBlue;
+  background: var(--blue--500);
 }
 
 .CDB-Shape-paragraphBar--01 {

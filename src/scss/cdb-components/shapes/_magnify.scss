@@ -76,10 +76,10 @@ Description
 
 .CDB-Shape-magnify.is-blue {
   &::before {
-    border: 1px solid $cBlue;
+    border: 1px solid var(--blue--500);
   }
   &::after {
-    background: $cBlue;
+    background: var(--blue--500);
   }
 }
 

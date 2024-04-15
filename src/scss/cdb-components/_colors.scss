@@ -16,7 +16,7 @@
 */
 
 .Color-Blue {
-  background: $cBlue;
+  background: var(--blue--500);
 }
 .Color-White {
   border: 1px solid #E5E5E5;

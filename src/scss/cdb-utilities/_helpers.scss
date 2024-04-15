@@ -59,10 +59,10 @@
 // ----------------------------------------------
 
 .u-actionTextColor {
-  color: $cBlue;
+  color: var(--blue--500);
 
   &:hover {
-    color: $cBlueHover;
+    color: var(--blue--400);
   }
 }
 .u-mainTextColor {

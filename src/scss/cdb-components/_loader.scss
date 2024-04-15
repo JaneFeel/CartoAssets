@@ -19,7 +19,7 @@ This is the generic loader for widgets, maps, components, ...
   width: 50%;
   height: 3px;
   transform: translateX(-200%);
-  background-image: linear-gradient(90deg, rgba($cBlue, 1) 0%, #32BBFE 90%, #FAFEFF 95%);
+  background-image: linear-gradient(90deg, #1785FB 0%, #32BBFE 90%, #FAFEFF 95%);
   z-index: 2;
 }
 
@@ -141,7 +141,7 @@ This is the generic loader for widgets, maps, components, ...
 }
 
 .CDB-LoaderIcon.is-blue .CDB-LoaderIcon-path {
-  stroke: $cBlue;
+  stroke: var(--blue--500);
 }
 
 @keyframes rotate {

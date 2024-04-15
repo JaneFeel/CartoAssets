@@ -69,7 +69,7 @@ Description
 
 .CDB-Shape-dash.is-blue {
   &::before {
-    background: $cBlue;
+    background: var(--blue--500);
   }
 }
 
